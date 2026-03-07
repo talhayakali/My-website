@@ -1,3 +1,15 @@
+html, body {
+    overflow-x: hidden; /* Yatay kaydırmayı tamamen kapatır */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin-right: 0; /* Row'dan kaynaklı taşmayı sıfırlar */
+    margin-left: 0;
+}
+
 /* body{
     margin: 0;
     padding: 0;
